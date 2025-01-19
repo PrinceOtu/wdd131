@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 - Dynamic Web Fundamentals – Prince Joseph Otu</title>
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Prince Joseph Otu. Content summary about Nigeria and the course">
+  <meta name="author" content="Prince Joseph Otu">
+</head>
+<body>
+  <header>
+    <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+    <nav>
+      <a href="www.linkedin.com/in/prince-joseph-otu-0185842b9">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng">Favorite Scripture</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
+  <main>
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="prince-joseph-otu.jpg" alt="Prince Joseph Otu">
+      <p>My name is Prince Joseph Otu. I was born in Nigeria but live in Johannesburg South Africa. I am currently working as an Indexer with FamilySearch managed by Springboard. My family is my greatest supporter and I truly love them, I love to listen to Trending market analyses, and current affairs and learn new things.</p>
+    </section>
+    <section class="card">
+      <h2>About Nigeria</h2>
+      <img src="nigeria.jpg" alt="Nigeria">
+      <p>Nigeria, an African country on the Gulf of Guinea, has many natural landmarks and wildlife reserves. Protected areas such as Cross River National Park and Yankari National Park have waterfalls, dense rainforests, savanna, and rare primate habitats.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="2025"></span> Prince Joseph Otu. Nigeria.</p>
+    <p id="lastModification"></p>
+  </footer>
+  <script>
+    document.getElementById("2025").textContent = new Date().getFullYear();
+    document.getElementById("lastModification").textContent = "Last Modification: " + new Date().toLocaleString();
+  </script>
+</body>
+</html>

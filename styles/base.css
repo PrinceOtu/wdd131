@@ -1,0 +1,57 @@
+/* Base styles */
+body {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Main element styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* CSS Grid for cards */
+main .card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+footer p {
+    margin: 5px 0;
+}
