@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Cape Town, South Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather in Cape Town, South Africa</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero-small-sa-flag.webp 400w, images/hero-medium-sport.webp 600w, images/hero-large-south-africa-cape-town.webp 900w"
+                    sizes="(max-width: 400px) 400px, (max-width: 600px) 600px, 900px" type="image/webp">
+                <img src="images/hero-large-south-africa-cape-town.webp" alt="Cape Town landscape">
+            </picture>
+        </section>
+
+        <section class="weather-info">
+            <h2>Weather <span id="weather-icon">⛅</span></h2>
+            <div class="weather-details">
+                <div class="current-conditions">
+                    <p>Temperature: <span id="temperature">20</span>°C</p>
+                    <p>Wind Speed: <span id="wind-speed">8</span> km/h</p>
+                    <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="additional-info">
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span>. Last Modified: <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
